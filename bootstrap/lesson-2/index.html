@@ -9,19 +9,70 @@
 <body>
   <!-- basic buttons -->
   <h2>Buttons</h2>
+  <button class="btn btn-primary">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+
+  <button type="button" class="btn btn-link">Link</button>
+
 
   <!-- anchor tags as buttons -->
+  <a href="#" type="button" class="btn btn-primary">Link Primary button</a>
+
+  <!-- Input as a button -->
+  <input class="btn btn-primary" type="button" value="Input">
 
   <!-- button sizes -->
   <h2>Button sizes</h2>
-
+  <button class="btn btn-primary btn-lg">Primary Large</button>
+  <button class="btn btn-primary btn-sm">Primary Small</button>
 
   <!-- outlined styles -->
   <h2>Button Styles</h2>
-
+  <button class="btn btn-outline-primary">Outline Primary</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
 
   <!-- button groups -->
   <h2>Button Groups</h2>
+  <div class="btn-group">
+    <button class="btn btn-primary">Left</button>
+    <button class="btn btn-primary">Center</button>
+    <button class="btn btn-dark">Right</button>
+  </div>
+
+  <div class="btn-group">
+    <button class="btn btn-outline-primary">Left</button>
+    <button class="btn btn-outline-primary">Center</button>
+    <button class="btn btn-outline-primary">Right</button>
+  </div>
+
+
+  <div style="margin-top: 40px;" class="btn-group" role="group" >
+    <input type="checkbox" class="btn-check" id="btnCheck1" autocomplete="off" />
+    <label for="btnCheck1" class="btn btn-outline-primary">Left Input</label>
+
+    <input type="checkbox" class="btn-check" id="btnCheck2" autocomplete="off"/>
+    <label for="btnCheck2" class="btn btn-outline-primary">Center Input</label>
+
+    <input type="checkbox" class="btn-check" id="btnCheck3" autocomplete="off"/>
+    <label for="btnCheck3" class="btn btn-outline-primary">Right Input</label>
+  </div>
+
+  <div style="margin-top: 40px;" class="btn-group">
+    <button class="btn btn-primary">1</button>
+    <button class="btn btn-primary">2</button>
+
+    <div class="btn-group">
+      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown</button>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="#" class="dropdown-item">Option 1</a>
+        </li>
+        <li>
+          <a href="#" class="dropdown-item">Option 2</a>
+        </li>
+      </ul>
+    </div>
+  </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
