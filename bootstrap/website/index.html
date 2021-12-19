@@ -11,20 +11,25 @@
     section {
       padding: 60px 0;
     }
+
+    .review-item-divider {
+      border-bottom: 1px solid #E7E7E7;
+    }
   </style>
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar fixed-top navbar-expand-md navbar-light">
     <div class="container-xxl">
       <a href="#" class="navbar-brand">
         <img src="/bootstrap/assets/l4o-logo.png" alt="logo" />
       </a>
 
       <!-- Toggler Button -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -50,7 +55,7 @@
   </nav>
 
   <!-- Title Image & Introduction Text -->
-  <section id="title-image">
+  <section id="title-image" style="background-color: #F9FFFF; padding-top: 200px;">
     <div class="container-lg">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-5">
@@ -97,7 +102,8 @@
               <div class="fs-6 text-muted lead">
                 Created by Tarun Chabarwal
               </div>
-              <img class="d-block img-fluid m-auto w-50" src="/bootstrap/assets/backend-development.png" alt="backend-development" />
+              <img class="d-block img-fluid m-auto w-50" src="/bootstrap/assets/backend-development.png"
+                alt="backend-development" />
               <a href="#" class="btn btn-outline-primary fs-5 px-5">Apply Now</a>
             </div>
           </div>
@@ -121,7 +127,8 @@
               <div class="fs-6 text-muted lead">
                 Created by Tarun Chabarwal
               </div>
-              <img class="d-block m-auto img-fluid w-50" src="/bootstrap/assets/frontend-development.png" alt="backend-development" />
+              <img class="d-block m-auto img-fluid w-50" src="/bootstrap/assets/frontend-development.png"
+                alt="backend-development" />
               <a href="#" class="btn btn-outline-primary fs-5 px-5">Apply Now</a>
             </div>
           </div>
@@ -141,7 +148,8 @@
               <div class="fs-6 text-muted lead">
                 Created by Tarun Chabarwal
               </div>
-              <img class="d-block img-fluid m-auto w-50" src="/bootstrap/assets/backend-development.png" alt="backend-development" />
+              <img class="d-block img-fluid m-auto w-50" src="/bootstrap/assets/backend-development.png"
+                alt="backend-development" />
               <a href="#" class="btn btn-outline-primary fs-5 px-5">Apply Now</a>
             </div>
           </div>
@@ -153,10 +161,160 @@
 
 
   <!-- How L4o works -->
+  <section id="how-l4o-works" style="background-color: #F9F9F9;">
+    <div class="container-lg">
+      <div class="d-flex flex-column align-items-center mb-5">
+        <div class="fs-2 fw-bolder">L4o.in kaise kaam karta hai</div>
+        <div class="fs-5 text-muted lead">Choose a best course to suit you</div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 text-center">
+          <img src="/bootstrap/assets/frontend-development.png" alt="frontend-development" class="img-fluid">
+        </div>
 
+        <!-- Accordion -->
+        <div class="col-9 col-lg-6">
+          <div class="accordion" id="L4o-working">
+            <!-- Accordion Item One -->
+            <div class="accordion-item">
+              <h5 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  INDUSTRY EXPERTS SE SEEKHEIN
+                </button>
+              </h5>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="L4o-working"
+                aria-labelledby="headingOne">
+                <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum voluptates
+                  tenetur
+                  possimus nulla corporis quibusdam quasi sit beatae, dolorem sapiente ducimus sunt et illum adipisci
+                  architecto! Molestias, est sint.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Accordion Item Two -->
+          <div class="accordion-item">
+            <h5 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                COURSE COMPLETE KAREIN
+              </button>
+            </h5>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="L4o-working"
+              aria-labelledby="headingTwo">
+              <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum voluptates tenetur
+                possimus nulla corporis quibusdam quasi sit beatae, dolorem sapiente ducimus sunt et illum adipisci
+                architecto! Molestias, est sint.</p>
+            </div>
+          </div>
+
+          <!-- Accordion Item Three -->
+          <div class="accordion-item">
+            <h5 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                JOB PROFILE BANAYEIN
+              </button>
+            </h5>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="L4o-working"
+              aria-labelledby="headingThree">
+              <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum voluptates tenetur
+                possimus nulla corporis quibusdam quasi sit beatae, dolorem sapiente ducimus sunt et illum adipisci
+                architecto! Molestias, est sint.</p>
+            </div>
+          </div>
+
+          <!-- Accordion Item Four -->
+          <div class="accordion-item">
+            <h5 class="accordion-header" id="headingFour">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                aria-expanded="true" aria-controls="collapseFour">
+                JOB KI GUARANTEE
+              </button>
+            </h5>
+            <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="L4o-working"
+              aria-labelledby="headingFour">
+              <p class="px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorum voluptates tenetur
+                possimus nulla corporis quibusdam quasi sit beatae, dolorem sapiente ducimus sunt et illum adipisci
+                architecto! Molestias, est sint.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
   <!-- Reviews -->
+  <section id="reviews" style="background-color: #EFF8F4;">
+    <div class="container-lg">
+      <div class="d-flex flex-column align-items-center mb-5">
+        <div class="fs-2 fw-bolder">Course Reviews</div>
+        <div class="fs-5 text-muted lead">Choose a best course to suit you</div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <ul class="list-group">
 
+          <li class="list-group-item py-4 px-5 border-0">
+            <!-- TODO: ICON -->
+            <div class="py-4">
+              <h3 class="fw-bold">A must-buy for every aspiring web dev</h3>
+              <p class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore sequi, dignissimos porro
+                accusamus esse quos similique non architecto dolore voluptates, in at voluptatibus, totam ad iure
+                quaerat autem placeat nihil!</p>
+            </div>
+            <div class="review-item-divider"></div>
+          </li>
+
+          <li class="list-group-item py-4 px-5 border-0">
+            <!-- TODO: ICON -->
+            <div class="py-4">
+              <h3 class="fw-bold">A must-buy for every aspiring web dev</h3>
+              <p class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore sequi, dignissimos porro
+                accusamus esse quos similique non architecto dolore voluptates, in at voluptatibus, totam ad iure
+                quaerat autem placeat nihil!</p>
+            </div>
+            <div class="review-item-divider"></div>
+          </li>
+
+          <li class="list-group-item py-4 px-5 border-0">
+            <!-- TODO: ICON -->
+            <div class="py-4">
+              <h3 class="fw-bold">A must-buy for every aspiring web dev</h3>
+              <p class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore sequi, dignissimos porro
+                accusamus esse quos similique non architecto dolore voluptates, in at voluptatibus, totam ad iure
+                quaerat autem placeat nihil!</p>
+            </div>
+            <div class="review-item-divider"></div>
+          </li>
+
+          <li class="list-group-item py-4 px-5 border-0">
+            <!-- TODO: ICON -->
+            <div class="py-4">
+              <h3 class="fw-bold">A must-buy for every aspiring web dev</h3>
+              <p class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore sequi, dignissimos porro
+                accusamus esse quos similique non architecto dolore voluptates, in at voluptatibus, totam ad iure
+                quaerat autem placeat nihil!</p>
+            </div>
+            <div class="review-item-divider"></div>
+          </li>
+
+          <li class="list-group-item py-4 px-5 border-0">
+            <!-- TODO: ICON -->
+            <div class="py-4">
+              <h3 class="fw-bold">A must-buy for every aspiring web dev</h3>
+              <p class="py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore sequi, dignissimos porro
+                accusamus esse quos similique non architecto dolore voluptates, in at voluptatibus, totam ad iure
+                quaerat autem placeat nihil!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
 
   <!-- Contact Form -->
 
